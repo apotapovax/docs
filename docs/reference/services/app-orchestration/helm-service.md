@@ -100,7 +100,7 @@ If you want to deploy this repo in production, check out the following resources
 
 module "helm_service" {
 
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/helm-service?ref=v0.104.2"
+  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/services/helm-service?ref=v0.104.2"
 
   # ----------------------------------------------------------------------------------------------------
   # REQUIRED VARIABLES
@@ -195,7 +195,7 @@ module "helm_service" {
 # ------------------------------------------------------------------------------------------------------
 
 terraform {
-  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/helm-service?ref=v0.104.2"
+  source = "git::git@github.com:gruntwork-io/terraform-aws-service-catalog.git//modules/services/helm-service?ref=v0.104.2"
 }
 
 inputs = {
